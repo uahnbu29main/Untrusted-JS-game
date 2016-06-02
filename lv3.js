@@ -12,17 +12,16 @@
 
 function startLevel(map) {
     map.placePlayer(map.getWidth()-7, map.getHeight()-5);
-
+    // INSERT THESE LINES
     for (y = 10; y <= map.getHeight() - 3; y++) {
         map.placeObject(5, y, 'block');
         map.placeObject(6, y, 'block');
     }
-    
     for (x = 5; x <= map.getWidth() - 5; x++) {
         map.placeObject(x, map.getHeight() - 4, 'block');
         map.placeObject(x, map.getHeight() - 3, 'block');
     }
-
+    // END
     map.placeObject(7, 5, 'exit');
 }
 
