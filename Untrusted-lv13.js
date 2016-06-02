@@ -27,10 +27,26 @@ function startLevel(map) {
             me.giveItemTo(player, 'blueKey');
         },
         'behavior': function (me) {
-            // INSERT THESE LINES - [Ctrl]+[5] if the code doesn't work
-            if (me.canMove('down')) me.move('down');
-            else me.move('right');
+            // INSERT THESE CODES
+            if (player.getX() == map.getWidth()-3) me.move('left');
+            if (player.getX() == map.getWidth()-2) {
+            	if (player.getY() == map.getHeight()-3) me.move('up');
+                if (player.getY() == map.getHeight()-1) me.move('down');
+            }
+            if (player.getX() == map.getWidth()-1) me.move('right');
             // END
+            /* Example
+            #############################################
+            #                                  #       ##
+            ############## ############### ##############
+            ##                    #                     #
+            ############## ##############################
+            #                                           #
+            #                                        ↑  #
+            #                                       ← → #
+            #☒                                       ↓@ #
+            #############################################
+            */
         }
     });
 
