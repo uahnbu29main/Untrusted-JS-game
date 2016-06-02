@@ -44,7 +44,7 @@ function startLevel(map) {
         'color': '#0f0',
         'impassable': function (player) {
             if (player.hasItem('greenKey')) {
-                player.removeItem('greenKey');map.placeObject(25,10,'greenKey');
+                player.removeItem('theAlgorithm'); // INSERT THE WORD "theAlgorithm"
                 return false;
             } else {
                 return true;
@@ -118,4 +118,3 @@ function onExit(map) {
         return true;
     }
 }
- 
