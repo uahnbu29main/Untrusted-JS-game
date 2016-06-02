@@ -64,4 +64,3 @@ function startLevel(map) {
 function validateLevel(map) {
     map.validateExactlyXManyObjects(1, 'exit');
 }
- 
