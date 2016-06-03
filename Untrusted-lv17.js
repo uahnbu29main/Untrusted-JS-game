@@ -69,7 +69,7 @@ function startLevel(map) {
         if (t2.getX() == 7 && t2.getY() == 4) var a = i+1;
         if (t2.getX() == 42 && t2.getY() == 20) var b = i+1;
     }
-    if (teleportersAndTraps[a].getType() == 'teleporter') {
+    if (teleportersAndTraps[a].getType() != 'trap') {
         teleportersAndTraps[a].setTarget(teleportersAndTraps[b]);
     // END
     }
