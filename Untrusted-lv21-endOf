@@ -2,7 +2,7 @@
 Press [Ctrl]+[0] to open "Menu+"
 Click on "scripts"
 Click "objects.js"
-Now find 'exit' and edit as below*/
+Now find 'exit' and edit as below (line 94)*/
 
 /*
 Objects can have the following parameters:
