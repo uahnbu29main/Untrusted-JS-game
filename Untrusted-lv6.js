@@ -59,6 +59,13 @@ function startLevel(map) {
 	map.placeObject(map.getWidth()/2,map.getHeight()/2, 'block');
     map.placeObject(map.getWidth()/2+1,map.getHeight()/2-1, 'block');
     // END
+    /* How to win:
+    player.moveToward(1,map.getHeight()/2);
+    player.moveToward(map.getWidth()/2-1,12);
+    player.moveToward(map.getWidth()/2-1,10);
+    player.moveToward(map.getWidth()-3,10);
+    player.moveToward('exit');
+    */
 }
 
 function validateLevel(map) {
