@@ -11,7 +11,7 @@ function startLevel(map) {
     map.placePlayer(7, 5);
 
     var maze = new ROT.Map.DividedMaze(map.getWidth(), map.getHeight());
-    maze = new ROT.Map.DividedMaze(1,1); // INSERT THIS LINE
+    /* // INSERT THIS LINE
     maze.create( function (x, y, mapValue) {
 
         // don't write maze over player
@@ -31,6 +31,6 @@ function startLevel(map) {
     map.placeObject(map.getWidth()-6, map.getHeight()-4, 'block');
     map.placeObject(map.getWidth()-5, map.getHeight()-5, 'block');
     map.placeObject(map.getWidth()-5, map.getHeight()-3, 'block');
+    */ // INSERT THIS LINE
     map.placeObject(map.getWidth()-3, map.getHeight()-3, 'exit');
-    map.placeObject(8, 5, 'exit'); // INSERT THIS LINE
 }
