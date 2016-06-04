@@ -22,6 +22,7 @@ function startLevel(map) {
         map.placeObject(x, map.getHeight() - 3, 'block');
     }
     // END
+
     map.placeObject(7, 5, 'exit');
 }
 
