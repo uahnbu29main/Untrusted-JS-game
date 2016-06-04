@@ -21,9 +21,9 @@ function startLevel(map) {
     map.getPlayer().setPhoneCallback(function () {
         // INSERT THESE LINES
         var player = map.getPlayer();
-        if (player.getColor() == '#f00') player.setColor('#0f0');
-        else if (player.getColor() == '#0f0') player.setColor('#ff0');
-        else player.setColor('#f00');
+        if (player.getColor() == '#0f0') player.setColor('#f00');
+        else if (player.getColor() == '#f00') player.setColor('#ff0');
+        else player.setColor('#0f0');
         // END
     });
 
