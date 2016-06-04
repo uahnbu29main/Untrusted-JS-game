@@ -1,0 +1,23 @@
+• Press [↑] until the green @ is in the upper-left corner (almost all of the screen will be green then)
+    ┌────────────────────────────────────────────────────────┐
+    │@ ←the green one                                        │
+    │         Department of Theoretical Computation          │
+    │┌────────┐                                              │
+    ││        │ Cornelius Eval                               │
+    ││   The  │                                              │
+    ││ Picture│                                              │
+    ││        │ About me                                     │
+    │└────────┘                                              │
+    │                                                        │
+    │                                                        │
+    │                                                        │
+    │ Class Schedule                                         │
+    │                                                        │
+    │                                                        │
+    │                                                        │
+    │ Lorem Ipsum                                            │
+ the red one↴                                                │
+    │     ─ @ Cicero, De Finibus Bonorum et Malorum          │
+    └────────────────────────────────────────────────────────┘
+
+• Hold [←]
