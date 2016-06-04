@@ -60,7 +60,6 @@ function startLevel(map) {
     map.getPlayer().setPhoneCallback(function () {
         if (player.getColor() == 'red') player.setColor('yellow');
         else if (player.getColor() == 'yellow') player.setColor('teal');
-        else if (player.getColor() == 'teal') player.setColor('red');
         else player.setColor('red');
     });
     // END
