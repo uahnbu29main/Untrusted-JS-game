@@ -59,7 +59,7 @@ function startLevel(map) {
             player.killedBy('a reinforcement drone');
         },
         'behavior': function (me) {
-        	if (me.getY() == 11) me.move('down'); // INSERT THIS LINE
+            if (me.getY() == 11) me.move('down'); // INSERT THIS LINE
         }
     });
 
@@ -72,7 +72,7 @@ function startLevel(map) {
         },
         'behavior': function (me) {
             // INSERT THESE LINES
-        	if (me.getX() == 27 && me.getY() == 11) me.move('right');
+            if (me.getX() == 27 && me.getY() == 11) me.move('right');
             else if (me.getX() == 28 && me.getY() == 11) me.move('down');
             // END
         }
